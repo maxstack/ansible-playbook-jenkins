@@ -114,11 +114,16 @@
       - copyartifact
       - ansicolor
     jenkins_plugins_install_dependencies: yes
+    packages:
+      - python-pip
+      - vim
+      - git
   roles:
     - role: geerlingguy.java
     - role: geerlingguy.jenkins
     - role: geerlingguy.docker
     - role: linuxhq.selinux
+    - role: maxstack.jenkins-support
       selinux_state: disabled
       become: true
 
