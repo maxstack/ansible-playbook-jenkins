@@ -1,4 +1,4 @@
-- hosts: jenkins
+- hosts: all
   sudo: yes
   vars:
     jenkins_hostname: localhost
