@@ -17,3 +17,4 @@ Available variables are listed below, along with default values:
       - git
       - ...
     jenkins_plugins_install_dependencies: yes
+    jenkins_plugin_timeout: 120
