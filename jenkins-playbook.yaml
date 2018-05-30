@@ -114,7 +114,7 @@
       - copyartifact
       - ansicolor
     jenkins_plugins_install_dependencies: yes
-    jenkins_plugin_timeout: 120
+    jenkins_plugin_timeout: 240
     packages:
       - python-pip
       - vim
