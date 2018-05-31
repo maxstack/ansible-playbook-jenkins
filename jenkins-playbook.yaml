@@ -119,6 +119,9 @@
       - python-pip
       - vim
       - git
+    build_jobs:
+      - https://raw.githubusercontent.com/maxstack/packer-ansible-jenkins/master/_jenkins/packer-ansible-jenkins-pipeline.xml
+      - https://raw.githubusercontent.com/maxstack/aws-pipelines/master/destroy-ami/aws-pipelines-destroy-ami.xml
   roles:
     - role: geerlingguy.java
     - role: geerlingguy.jenkins
